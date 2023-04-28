@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after {
+    box-sizing:border-box;
+}
+
+body {
+    margin:0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:16px;
+}
+
+/* HEADER */
+
+.site-header {
+    background-color:#f5f7f9;
+    width:100%;
+    display:block;
+    height:40px;
+    border-bottom:1px solid #e5e9ed;
+    font-size:12px;
+}
+
+.flex-header {
+    max-width:1200px;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.socials, .info {
+    display:flex;
+}
+
+.socials a, .info a {
+    margin:0;
+    text-decoration:none;
+    color:#506a85;
+    padding-right:24px;
+    padding-top:13px;
+}
+
+.info i {
+    padding-top:13px;
+}
+
+.socials a:hover, .info a:hover {
+    color:blue;
+}
+
+/* HERO */
+
