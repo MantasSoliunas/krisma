@@ -81,7 +81,13 @@ body {
 }
 
 .main-nav li:hover {
-    background-color:lightskyblue;
+    background-color:#506a85;
+    border-radius:5px;
+    padding:0 15px;
+}
+
+.main-nav a:hover {
+    color:#fff;
 }
 
 /* HERO */
