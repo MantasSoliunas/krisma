@@ -21,7 +21,7 @@ body {
     font-size:12px;
 }
 
-.flex-header {
+.flex-between {
     max-width:1200px;
     margin:0 auto;
     display:flex;
@@ -49,5 +49,44 @@ body {
     color:blue;
 }
 
+/* NAVI */
+
+.navi {
+    margin:0;
+    background-color:#FFF;
+    font-size:15px;
+    text-transform:uppercase;
+    font-weight:700;
+    color:#506a85;
+    height:111px;
+}
+
+.main-nav {
+    display:flex;
+    list-style:none;
+    padding-top:36px;
+}
+
+.main-nav li {
+    margin-right:43px;
+}
+
+.main-nav a {
+    text-decoration:none;
+    color:#506a85;
+}
+
+.logo {
+    padding-top:36px;
+}
+
+.main-nav li:hover {
+    background-color:lightskyblue;
+}
+
 /* HERO */
 
+.hero {
+    margin:0;
+    background-color:#506a85;
+}
