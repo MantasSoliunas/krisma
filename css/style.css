@@ -152,6 +152,23 @@ body {
     display:flex;
 }
 
+.offer {
+    display:flex;
+    flex-wrap:wrap;
+    color:#506a85;
+    gap:25px;
+}
+
+.offer i {
+    color:#00bb9b;
+    font-size:3rem;
+}
+
+.offer p {
+   
+}
+
+
 /* .service {
     display:flex;
     flex-wrap:wrap;
