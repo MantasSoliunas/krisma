@@ -40,6 +40,7 @@ body {
     padding-right:24px;
     padding-top:13px;
 }
+/* hover spalva? */
 
 .info i {
     padding-top:13px;
@@ -156,37 +157,90 @@ body {
     display:flex;
     flex-wrap:wrap;
     color:#506a85;
-    gap:25px;
 }
 
-.offer i {
+.section-content i {
     color:#00bb9b;
     font-size:3rem;
+    padding:30px;
 }
 
-.offer p {
-   
-}
+/* location */
 
-
-/* .service {
-    display:flex;
-    flex-wrap:wrap;
+.location {
+    background-color:#f1f5f7;
     color:#506a85;
-    font-size:1.625rem;
-    margin:0;
+    text-align:center;
+    padding:20px;
 }
 
-.service .bi  {
-    font-size:4rem;
-    color:#00bb9b;
-    padding-left:53px;
-    padding-right:30px;
+.location h2 {
+    font-size:2.75rem;
+    margin:10px;
 }
 
-.service p {
+/* contact */
+
+.contact {
+    color:#506a85;
+    padding-bottom:60px;
+}
+
+
+
+
+/* footer-main */
+
+.footer-main {
+    background-color:#2f3f51;
+    padding:0;
+    color:#fff;
+    padding:25px 0;
+}
+
+.footer-main p {
+    color:#8695a4;
+    font-size:0.875rem;
+}
+
+.who .contact-info {
+    width:20%;
+}
+
+.who h2, .contact-info h2 {
+    text-transform:uppercase;
     margin:0;
-    padding-top:0;
-    padding-left:150px;
+    padding-bottom:25px;
+}
+
+.who a, .contact-info a {
+    text-decoration:none;
+    color:#8695a4;
+    font-size:0.875rem;
+}
+
+.who a {
     font-size:1rem;
-} */
+}
+
+.contact-info i {
+    padding:5px;
+    color:#8695a4;
+}
+
+/* footer-sub */
+
+footer {
+    background-color:#273545;
+    color:#707e8c;
+    font-size:0.875rem;
+}
+
+footer .socials a {
+    padding-right:24px;
+    padding-top:13px;
+}
+/* sulygiuoti socials */
+
+
+
