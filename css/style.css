@@ -31,23 +31,22 @@ body {
 
 .socials, .info {
     display:flex;
+    list-style:none;
 }
 
 .socials a, .info a {
     margin:0;
     text-decoration:none;
     color:#506a85;
-    padding-right:24px;
-    padding-top:13px;
+    padding: 13px;
 }
-/* hover spalva? */
 
 .info i {
-    padding-top:13px;
+    padding:5px;
 }
 
 .socials a:hover, .info a:hover {
-    color:blue;
+    color:#009f84;
 }
 
 /* NAVI */
@@ -118,7 +117,7 @@ body {
     color:#a3b0bf;
 }
 
-.hero a {
+.hero a, .contact .btn {
     font-size:1.125rem;
     letter-spacing:0.02em;
     color:#fff;
@@ -138,15 +137,20 @@ body {
 .section-heading {
     text-align:center;
 }
+.services {
+    padding:20px;
+}
 
 .section-heading h1 {
     font-size:2.75rem;
-    color:#506a85
+    color:#506a85;
+    margin:0;
 }
 
 .section-heading h3 {
     font-size:1.375rem;
     color:#506a85;
+    margin:0;
 }
 
 .section-content {
@@ -176,18 +180,67 @@ body {
 
 .location h2 {
     font-size:2.75rem;
-    margin:10px;
+    margin:0
 }
 
 /* contact */
 
 .contact {
     color:#506a85;
+    margin:0;
+    padding:20px;
+}
+
+.contact h2 {
+    margin:0;
+}
+
+.contact .container {
     padding-bottom:60px;
 }
 
+.contact .section-content {
+    justify-content:center;
+    width:80%;
+    max-width:860px;
+    margin:30px auto;
+}
 
+.contact .section-content .contact-form .input-row {
+    margin-bottom:30px;
+}
 
+.contact .section-content .contact-form .input-row input {
+    padding:15px 25px;
+    border-radius:5px;
+    background-color:#f1f5f7;
+    width:calc(50% - 18px);
+}
+
+.contact .section-content .contact-form .input-row input:first-child {
+    margin-right:16px;
+}
+
+.contact .section-content .contact-form .input-row input:last-child {
+    margin-left:16px;
+}
+
+.contact .section-content .contact-form textarea {
+    border-radius:5px;
+    width:100%;
+    background-color:#f1f5f7;
+    padding:25px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:16px;
+}
+
+.contact .btn {
+    margin:60px auto 0;
+    display:block;
+    width:250px;
+    border:none;
+    padding:15px 50px;
+}
 
 /* footer-main */
 
@@ -235,12 +288,5 @@ footer {
     color:#707e8c;
     font-size:0.875rem;
 }
-
-footer .socials a {
-    padding-right:24px;
-    padding-top:13px;
-}
-/* sulygiuoti socials */
-
 
 
