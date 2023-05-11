@@ -46,7 +46,7 @@ body {
 }
 
 .socials a:hover, .info a:hover {
-    color:#009f84;
+    color:#00bb9b;
 }
 
 /* NAVI */
@@ -54,7 +54,6 @@ body {
 .navi {
     margin:0;
     background-color:#FFF;
-    font-size:15px;
     text-transform:uppercase;
     font-weight:700;
     color:#506a85;
@@ -72,24 +71,25 @@ body {
 }
 
 .main-nav a {
+    margin:0;
+    padding: 10px 17px;
     text-decoration:none;
     color:#506a85;
 }
 
-.logo {
-    padding-top:20px;
-}
-
-.main-nav li:hover {
-    background-color:#506a85;
+.main-nav a:hover, .main-nav a:active {
+    background-color:#00bb9b;
     border-radius:5px;
-    padding:0 15px;
-}
-
-.main-nav a:hover {
     color:#fff;
 }
-/* sutvarkyti lygiavima hover */
+
+.mobile-nav {
+    display:none;
+}
+
+.logo {
+    padding-top:25px;
+}
 
 /* HERO */
 
@@ -231,15 +231,18 @@ body {
     background-color:#f1f5f7;
     padding:25px;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size:16px;
+    font-size:1rem;
 }
 
 .contact .btn {
     margin:60px auto 0;
     display:block;
     width:250px;
-    border:none;
     padding:15px 50px;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 /* footer-main */
@@ -272,6 +275,10 @@ body {
     font-size:0.875rem;
 }
 
+.contact-info a:hover, .who a:hover {
+    color:#00bb9b;
+}
+
 .who a {
     font-size:1rem;
 }
@@ -288,5 +295,81 @@ footer {
     color:#707e8c;
     font-size:0.875rem;
 }
+
+/* tablet */
+
+@media screen and (max-width:980px) {
+    .site-header {
+        display:none;
+    }
+    .main-nav {
+        display:none;
+    }
+    .navi {
+        display:block;
+    }
+    .logo {
+        float:left;
+    }
+    .mobile-nav {
+        position:relative;
+        width:100%;
+        display:block;
+    }
+    .mobile-nav ul {
+        flex-direction:column;
+        display:none;
+        position:absolute;
+        width:100%;
+        top:133px;
+        padding:20px;
+        background-color:#fff;
+    }
+    .mobile-nav li {
+        list-style:none;
+    }
+    .mobile-nav a {
+        color:#2f3f51;
+        text-decoration:none;
+        font-size:1rem;
+        text-transform:uppercase;
+        margin:0 5px;
+        padding:10px 17px;
+        display:block;
+    }
+    .mobile-nav a:hover, .mobile-nav a:active {
+        background-color:#00bb9b;
+        border-radius:5px;
+        color:#fff;
+    }
+    .mobile-nav a.icon {
+        display:block;
+        position:absolute;
+        right:0;
+        font-weight:bold;
+    }
+    .hero h1 {
+        padding:30px;
+    }
+    .hero .container a {
+        padding:15px 20px;
+    }
+    .location .container iframe {
+        width:400px;
+    }
+    .services .section-content {
+        flex-direction:column;
+        align-items:center;
+        text-align:center;
+    }
+    .services .offer {
+        text-align:center;
+        justify-content:center;
+    }
+    .footer-main {
+        flex-direction:column;
+    }
+}
+
 
 
