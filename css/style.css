@@ -296,6 +296,13 @@ footer {
     font-size:0.875rem;
 }
 
+/* --- ABOUT PAGE --- */
+
+.about-page {
+    display:flex;
+    background-color:#f1f5f7;
+}
+
 /* tablet */
 
 @media screen and (max-width:980px) {
@@ -368,6 +375,12 @@ footer {
     }
     .footer-main {
         flex-direction:column;
+    }
+    .section-content .i {
+        padding:15px;
+    }
+    .section-content h2 {
+        margin:0;
     }
 }
 
