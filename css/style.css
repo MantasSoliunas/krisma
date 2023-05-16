@@ -300,6 +300,7 @@ footer {
 
 .about-page {
     display:flex;
+    justify-content:center;
     background-color:#f1f5f7;
 }
 
