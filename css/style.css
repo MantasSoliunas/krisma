@@ -120,7 +120,7 @@ body {
     color:#a3b0bf;
 }
 
-.hero a, .contact .btn {
+.hero button, .contact .btn {
     font-size:1.125rem;
     letter-spacing:0.02em;
     color:#fff;
@@ -129,11 +129,14 @@ body {
     background-color:#00bb9b;
     padding:28px 82px 25px;
     border-radius:5px;
+    outline:none;
+    border:none;
     border-bottom:4px solid #009f84;
     margin-top:40px;
     display:inline-block;
     cursor:pointer;
     animation: button-load 500ms ease-in;
+    
 }
 
 @keyframes hero-load {

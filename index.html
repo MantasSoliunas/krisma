@@ -10,17 +10,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
-    <title>Krisma</title>
-    <script>
-        function myFunction() {
-            var x = document.getElementById('mMenu');
-            if (x.style.display === "block") {
-                x.style.display = "none";
-            } else {
-                x.style.display = "block";
-            }
-        }
-    </script>
+    <script src="js/custom.js" defer></script>
+    <title>Krisma</title>  
 </head>
 <body>
     <header class="site-header">
@@ -75,7 +66,7 @@
         <div class="container">
             <h1>Your reliable transport partner!</h1>
             <h2>Contact us for all your transport or logistics needs and let us handle all your troubles.</h2>
-            <a href="#">Get in touch!</a>
+            <button onclick="scrollToElement()">Get in touch!</button>
         </div>
     </section>
                                 <!-- services -->
@@ -112,7 +103,8 @@
             <h3>Located near the highway A1, our company can quickly react to your inquiries or be a convenient place to store your goods in our warehouse</h3>
         </div>
     </section>
-    <section class="contact">
+                                <!-- contact -->
+    <section class="contact" id="targetElement">
         <div class="container">
             <div class="section-heading">
                 <h2>GET IN TOUCH</h2>
