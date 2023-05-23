@@ -39,6 +39,7 @@ body {
     text-decoration:none;
     color:#506a85;
     padding: 13px;
+    transition: 0.5s;
 }
 
 .info i {
@@ -75,6 +76,7 @@ body {
     padding: 10px 17px;
     text-decoration:none;
     color:#506a85;
+    transition: 0.5s;
 }
 
 .main-nav a:hover, .main-nav a:active {
@@ -328,6 +330,7 @@ body {
     text-decoration:none;
     color:#8695a4;
     font-size:0.875rem;
+    transition: 0.5s;
 }
 
 .contact-info a:hover, .who a:hover {
@@ -442,10 +445,6 @@ footer {
 
 /* ABOUT PAGE */
 
-.about-page {
-
-}
-
 .about-row1, .about-row2 {
     display:flex;
     justify-content:space-between;
@@ -508,7 +507,7 @@ footer {
     }
 }
 .about-row1 img, .about-row2 img {
-    padding: 25px;
+    padding: 20px;
     border-radius:40px;
     animation: image-fade 2s ease-in;
 }
@@ -596,6 +595,7 @@ footer {
 .contact1 a {
     text-decoration:none;
     color:#506a85;
+    transition: 0.5s;
 }
 
 .contact1 a:hover {
@@ -620,6 +620,7 @@ footer {
 .company-info a {
     text-decoration:none;
     color:#506a85;
+    transition: 0.5s;
 }
 
 .company-info a:hover {
