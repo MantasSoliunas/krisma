@@ -1,7 +1,11 @@
+// BUTTON SCROLL
+
 function scrollToElement() {
     var targetElement = document.getElementById('targetElement');
     targetElement.scrollIntoView({ behavior: 'smooth' });
   }
+
+//   MOBILE NAV 
 
 function myFunction() {
     var x = document.getElementById('mMenu');
@@ -11,6 +15,8 @@ function myFunction() {
         x.style.display = "block";
     }
 }
+
+// HERO BACKGROUND CHANGE
 
 var images = ['img/hero-drone2.png', 'img/hero-drone3.png', 'img/hero-tir.png', 'img/hero-drone1.png'];
 var currentIndex = 0;

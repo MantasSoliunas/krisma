@@ -50,7 +50,7 @@ body {
     color:#00bb9b;
 }
 
-/* NAVI */
+/* NAVIGATION */
 
 .navi {
     margin:0;
@@ -232,7 +232,7 @@ body {
         opacity:1;
     }
 }
-/* location */
+/* LOCATION */
 
 .location {
     background-color:#f1f5f7;
@@ -246,7 +246,7 @@ body {
     margin:0
 }
 
-/* contact */
+/* CONTACT */
 
 .contact {
     color:#506a85;
@@ -308,7 +308,7 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-/* footer-main */
+/* FOOTER MAIN */
 
 .footer-main {
     background-color:#2f3f51;
@@ -352,7 +352,7 @@ body {
     color:#8695a4;
 }
 
-/* footer-sub */
+/* FOOTER SUB */
 
 footer {
     background-color:#273545;
@@ -360,15 +360,7 @@ footer {
     font-size:0.875rem;
 }
 
-/* --- ABOUT PAGE --- */
-
-.about-page {
-    display:flex;
-    justify-content:center;
-    background-color:#f1f5f7;
-}
-
-/* tablet */
+/* TABLET SCREEN */
 
 @media screen and (max-width:980px) {
     .site-header {
@@ -449,7 +441,13 @@ footer {
     }
 }
 
-/* ABOUT PAGE */
+                                    /* ABOUT PAGE */
+
+.about-page {
+    display:flex;
+    justify-content:center;
+    background-color:#f1f5f7;
+}
 
 .about-row1, .about-row2 {
     display:flex;
@@ -570,7 +568,7 @@ footer {
     padding-top:35px;
 }
 
-/* CONTACT-PAGE */
+                                    /* CONTACT-PAGE */
 
 .contact-page {
     background-color:#f1f5f7;
