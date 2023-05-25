@@ -11,16 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
     <title>Krisma</title>
-    <script>
-        function myFunction() {
-            var x = document.getElementById('mMenu');
-            if (x.style.display === "block") {
-                x.style.display = "none";
-            } else {
-                x.style.display = "block";
-            }
-        }
-    </script>
+    <script src="js/custom.js"></script>
 </head>
 <body>
     <header class="site-header">
@@ -44,20 +35,20 @@
     <section class="navi">
         <div class="flex-between">
             <div class="logo">
-                <a href="index.html"><img src="img/logo_color.png" alt="Krisma logo" width="161px"></a>
+                <a href="index.php"><img src="img/logo_color.png" alt="Krisma logo" width="161px"></a>
             </div>
             <nav>
                 <ul class="main-nav">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="about.php">About</a></li>
+                    <li><a href="contact.php">Contact</a></li>
                 </ul>
             </nav>
             <nav class="mobile-nav">
                 <ul id="mMenu" class="main-nav">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="about.php">About</a></li>
+                    <li><a href="contact.php">Contact</a></li>
                 </ul>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                     <i class="bi bi-list"></i>
@@ -137,9 +128,9 @@
         <div class="flex-between">
             <div class="who">
                 <h2>Who we are</h2>
-                <a href="index.html"><img src="img/logo_white.png" alt="Krisma logo" width="161px"></a>
+                <a href="index.php"><img src="img/logo_white.png" alt="Krisma logo" width="161px"></a>
                 <p>With a strong emphasis on customer satisfaction and attention to detail, we have built a reputation as a trusted and dependable partner for businesses and individuals alike.</p>
-                <a href="about.html"><strong>More about us<i class="bi bi-arrow-right"></i></strong></a>
+                <a href="about.php"><strong>More about us<i class="bi bi-arrow-right"></i></strong></a>
             </div>
             <div class="contact-info">
                 <h2>Let us know!</h2>
@@ -155,7 +146,7 @@
     <footer class="footer-sub">
         <div class="flex-between">
             <div class="copyright">
-                <p>&copy; 2023 Krisma. All rights reserved.</p>
+                <p>&copy;<?php echo date('Y'); ?> Krisma. All rights reserved.</p>
             </div>
             <div class="socials">
                 <ul class="socials">
