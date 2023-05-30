@@ -360,88 +360,7 @@ footer {
     font-size:0.875rem;
 }
 
-/* TABLET SCREEN */
-
-@media screen and (max-width:980px) {
-    .site-header {
-        display:none;
-    }
-    .main-nav {
-        display:none;
-    }
-    .navi {
-        display:block;
-    }
-    .logo {
-        float:left;
-    }
-    .mobile-nav {
-        position:relative;
-        width:100%;
-        display:block;
-    }
-    .mobile-nav ul {
-        flex-direction:column;
-        display:none;
-        position:absolute;
-        width:100%;
-        top:133px;
-        padding:20px;
-        background-color:#fff;
-    }
-    .mobile-nav li {
-        list-style:none;
-    }
-    .mobile-nav a {
-        color:#2f3f51;
-        text-decoration:none;
-        font-size:1rem;
-        text-transform:uppercase;
-        margin:0 5px;
-        padding:10px 17px;
-        display:block;
-    }
-    .mobile-nav a:hover, .mobile-nav a:active {
-        background-color:#00bb9b;
-        border-radius:5px;
-        color:#fff;
-    }
-    .mobile-nav a.icon {
-        display:block;
-        position:absolute;
-        right:0;
-        font-weight:bold;
-    }
-    .hero h1 {
-        padding:30px;
-    }
-    .hero .container a {
-        padding:15px 20px;
-    }
-    .location .container iframe {
-        width:400px;
-    }
-    .services .section-content {
-        flex-direction:column;
-        align-items:center;
-        text-align:center;
-    }
-    .services .offer {
-        text-align:center;
-        justify-content:center;
-    }
-    .footer-main {
-        flex-direction:column;
-    }
-    .section-content .i {
-        padding:15px;
-    }
-    .section-content h2 {
-        margin:0;
-    }
-}
-
-                                    /* ABOUT PAGE */
+/* ABOUT PAGE */
 
 .about-page {
     display:flex;
@@ -536,14 +455,14 @@ footer {
     height:430px;
 }
 
-.about-row3 h2 {
+.about-row3 h2, .mobile-about-row3 h2 {
     font-size:5rem;
     text-align:center;
     color:#00bb9b;
     margin:0;
 }
 
-.about-row3 p {
+.about-row3 p, .mobile-about-row3 p {
     font-size:1.5rem;
     color:#fff; 
     margin:0;
@@ -568,7 +487,23 @@ footer {
     padding-top:35px;
 }
 
-                                    /* CONTACT-PAGE */
+.mobile-about-row3 {
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items:center;
+}
+.mobile-about-row3 .row3-fleet, .mobile-about-row3 .row3-experience, .mobile-about-row3 .row3-kilometers {
+    border: 1px solid black;
+    height:300px;
+    width:300px;
+    border-radius:50%;
+}
+.mobile-about-row3 .row3-fleet h2, .mobile-about-row3 .row3-experience h2, .mobile-about-row3 .row3-kilometers h2 {
+    padding-top: 40px;
+}
+
+/* CONTACT-PAGE */
 
 .contact-page {
     background-color:#f1f5f7;
@@ -629,4 +564,225 @@ footer {
 
 .company-info a:hover {
     color:#00bb9b;
+}
+
+/* MOBILE SCREEN */
+
+@media screen and (max-width:390px) {
+    .site-header {
+        display:none;
+    }
+    .main-nav {
+        display:none;
+    }
+    .navi {
+        display:block;
+    }
+    .logo {
+        margin-left:20px;
+    }
+    .mobile-nav {
+        position:relative;
+        width:100%;
+        display:block;
+    }
+    .mobile-nav ul {
+        flex-direction:column;
+        display:none;
+        position:absolute;
+        width:100%;
+        top:50px;
+        padding:20px;
+        background-color:#fff;
+    }
+    .mobile-nav li {
+        list-style:none;
+    }
+    .mobile-nav a {
+        color:#2f3f51;
+        text-decoration:none;
+        font-size:1rem;
+        text-transform:uppercase;
+        margin:0 20px;
+        padding:10px 17px;
+        display:block;
+    }
+    .mobile-nav a:hover, .mobile-nav a:active {
+        background-color:#00bb9b;
+        border-radius:5px;
+        color:#fff;
+    }
+    .mobile-nav a.icon {
+        display:block;
+        position:absolute;
+        right:0;
+        font-weight:bold;
+    }
+    .hero h1 {
+        font-size:4rem;
+        text-align:center;
+        padding-top:60px;
+    }
+    .hero .container a {
+        padding:15px 20px;
+    }
+    .hero button {
+        margin:0;
+    }
+    .services .section-content {
+        flex-direction:column;
+        align-items:center;
+        text-align:center;
+    }
+    .services .section-content .offer {
+        text-align:center;
+        justify-content:center;
+    }
+    .section-content .i {
+        padding:15px;
+    }
+    .section-content h2 {
+        margin:0;
+    }
+    .location .container iframe {
+        width:100%;
+        margin:0;
+    }
+    .contact .container {
+        padding:0px;
+    }
+    .contact .btn {
+        margin-top:20px;
+    }
+    .footer-main .flex-between {
+        flex-direction:column;
+        text-align:center;
+    }
+    .footer-main .flex-between .who h2, .footer-main .flex-between .who p, .footer-main .flex-between .who strong, .footer-main .flex-between .contact-info h2, .footer-main .flex-between .contact-info p {
+        display:none;
+    }
+    .footer-main .flex-between .who img, .footer-main .flex-between .contact-info a, .footer-main .flex-between .contact-info i {
+        font-size:1.15rem;
+    }
+    .footer-sub .flex-between {
+        flex-direction:column;
+        font-size:1rem;
+    }
+    .footer-sub .flex-between .socials {
+        text-align:center;
+        font-size:1.5rem;
+        padding:0;
+        margin-top:0;
+    }
+}
+
+/* TABLET SCREEN */
+
+@media screen and (max-width:768px) {
+    .site-header {
+        display:none;
+    }
+    .main-nav {
+        display:none;
+    }
+    .navi {
+        display:block;
+    }
+    .logo {
+        margin-left:20px;
+    }
+    .mobile-nav {
+        position:relative;
+        width:100%;
+        display:block;
+    }
+    .mobile-nav ul {
+        flex-direction:column;
+        display:none;
+        position:absolute;
+        width:100%;
+        top:50px;
+        padding:20px;
+        background-color:#fff;
+    }
+    .mobile-nav li {
+        list-style:none;
+    }
+    .mobile-nav a {
+        color:#2f3f51;
+        text-decoration:none;
+        font-size:1rem;
+        text-transform:uppercase;
+        margin:0 20px;
+        padding:10px 17px;
+        display:block;
+    }
+    .mobile-nav a:hover, .mobile-nav a:active {
+        background-color:#00bb9b;
+        border-radius:5px;
+        color:#fff;
+    }
+    .mobile-nav a.icon {
+        display:block;
+        position:absolute;
+        right:0;
+        font-weight:bold;
+    }
+    .hero h1 {
+        padding-top:100px;
+    }
+    .services .section-content {
+        font-size:1.5rem;
+        flex-direction:column;
+        align-items:center;
+        text-align:center;
+    }
+    .services .section-content i {
+        font-size:4rem;
+        padding:0;
+    }
+    .services .section-content h2 {
+        margin:0;
+    }
+    .services .offer {
+        text-align:center;
+        justify-content:center;
+    }
+    .location .container iframe {
+        width:100%;
+        margin:0;
+    }
+    .contact .container {
+        padding:0;
+    }
+    .footer-main .flex-between {
+        flex-direction:column;
+        text-align:center;
+    }
+    .footer-main .flex-between .who h2, .footer-main .flex-between .who p, .footer-main .flex-between .who strong, .footer-main .flex-between .contact-info h2, .footer-main .flex-between .contact-info p, .footer-main .flex-between .contact-info a {
+        font-size: 1.25rem;
+        margin:0;
+    }
+    .footer-main .flex-between .contact-info h2 {
+        padding-top:25px;
+        padding-bottom:25px;
+    }
+    .footer-sub .socials, .footer-sub .copyright {
+        font-size:1.25rem;
+    }
+    .mobile-about-row3 {
+        display:flex;
+        flex-direction:column;
+        justify-content: space-around;
+        align-items:center;
+        }
+    .mobile-about-row3 .row3-fleet, .mobile-about-row3 .row3-experience, .mobile-about-row3 .row3-kilometers {
+        border: 1px solid black;
+        height:300px;
+        width:300px;
+        border-radius:50%;
+        }
+    .mobile-about-row3 .row3-fleet h2, .mobile-about-row3 .row3-experience h2, .mobile-about-row3 .row3-kilometers h2 {
+        padding-top: 40px;
+        }
 }
