@@ -104,6 +104,16 @@ body {
     transition: background-image 1.5s ease-in-out;
 }
 
+@keyframes hero-load {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 .container {
     max-width:1200px;
     margin:0 auto;
@@ -138,18 +148,7 @@ body {
     margin-top:40px;
     display:inline-block;
     cursor:pointer;
-    animation: button-load 500ms ease-in;
-    
-}
-
-@keyframes hero-load {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
+    animation: button-load 500ms ease-in;    
 }
 
 @keyframes button-load {
@@ -167,6 +166,17 @@ body {
     text-align:center;
     animation: services-load 900ms ease-in;
 }
+
+@keyframes services-load {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 .services {
     padding:20px;
 }
@@ -194,23 +204,6 @@ body {
     animation: offer-load 1.5s ease-in;
 }
 
-.section-content i {
-    color:#00bb9b;
-    font-size:3rem;
-    padding:30px;
-    animation: icon-fade 2s ease-in;
-}
-
-@keyframes services-load {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
 @keyframes offer-load {
     0% {
         transform:translateX(-500%);
@@ -220,6 +213,13 @@ body {
         transform:translateX(0);
         opacity:1;
     }
+}
+
+.section-content i {
+    color:#00bb9b;
+    font-size:3rem;
+    padding:30px;
+    animation: icon-fade 2s ease-in;
 }
 
 @keyframes icon-fade {
@@ -232,6 +232,7 @@ body {
         opacity:1;
     }
 }
+
 /* LOCATION */
 
 .location {
@@ -360,7 +361,7 @@ footer {
     font-size:0.875rem;
 }
 
-/* MOBILE SCREEN */
+/* MOBILE SCREEN - INDEX */
 
 @media screen and (max-width:390px) {
     .site-header {
@@ -429,7 +430,6 @@ footer {
         text-align:center;
     }
     .services .section-content .offer {
-        
         text-align:center;
         justify-content:center;
     }
@@ -468,26 +468,6 @@ footer {
         font-size:1.5rem;
         padding:0;
         margin-top:0;
-    }
-    .about-page .container .about-row3 {
-        display:none;
-    }
-    .about-page .container .mobile-about-row3 {
-    display:flex;
-    flex-direction:column;
-    justify-content: space-around;
-    align-items:center;
-    }
-
-    .mobile-about-row3 .row3-fleet, .mobile-about-row3 .row3-experience, .mobile-about-row3 .row3-kilometers {
-    border: 1px solid black;
-    height:300px;
-    width:300px;
-    border-radius:50%;
-    }
-
-    .mobile-about-row3 .row3-fleet h2, .mobile-about-row3 .row3-experience h2, .mobile-about-row3 .row3-kilometers h2 {
-    padding-top: 40px;
     }
 }
 
@@ -585,27 +565,6 @@ footer {
     .footer-sub .socials, .footer-sub .copyright {
         font-size:1.25rem;
     }
-    .about-page .container .about-row3 {
-        display:none;
-    }
-    .about-page .container .mobile-about-row3 {
-        display:block;
-    }
-    .mobile-about-row3 {
-        display:flex;
-        flex-direction:column;
-        justify-content: space-around;
-        align-items:center;
-        }
-    .mobile-about-row3 .row3-fleet, .mobile-about-row3 .row3-experience, .mobile-about-row3 .row3-kilometers {
-        border: 1px solid black;
-        height:300px;
-        width:300px;
-        border-radius:50%;
-        }
-    .mobile-about-row3 .row3-fleet h2, .mobile-about-row3 .row3-experience h2, .mobile-about-row3 .row3-kilometers h2 {
-        padding-top: 40px;
-        }
 }
 
                                     /* ABOUT PAGE */
