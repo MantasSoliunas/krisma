@@ -18,7 +18,7 @@ function myFunction() {
 
 // HERO BACKGROUND CHANGE
 
-var images = ['img/webp/hero-drone2.webp', 'img/webp/hero-drone3.webp', 'img/webp/hero-tir.webp', 'img/webp/hero-drone1.webp'];
+var images = ['img/hero-drone2.png', 'img/hero-drone3.png', 'img/hero-tir.png', 'img/hero-drone1.png'];
 var currentIndex = 0;
 
 function changeBackgroundImage() {

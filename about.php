@@ -4,16 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
     <script src="js/custom.js"></script>
-    <title>Krisma</title>
-    
+    <title>Krisma</title>    
 </head>
 <body>
+
+<!-- HEADER -->
+
     <header class="site-header">
         <div class="flex-between">
             <div class="info">
@@ -32,6 +34,9 @@
             </div>
         </div>
     </header>
+
+<!-- NAVIGATION -->
+
     <section class="navi">
         <div class="flex-between">
             <div class="logo">
@@ -56,6 +61,9 @@
             </nav>
         </div>
     </section>
+
+<!-- ABOUT PAGE -->
+
     <section class="about-page">
         <div class="container">
             <div class="about-row1">
@@ -101,6 +109,9 @@
             <div class="splitline"></div>
         </div>
     </section>
+
+<!-- FOOTER MAIN -->
+
     <section class="footer-main">
         <div class="flex-between">
             <div class="who">
@@ -120,6 +131,9 @@
             </div>
         </div>
     </section>
+
+<!-- FOOTER SUB -->
+
     <footer class="footer-sub">
         <div class="flex-between">
             <div class="copyright">

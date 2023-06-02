@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    
+    <link rel="stylesheet" href="css/contact.css">  
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,6 +13,9 @@
     <script src="js/custom.js"></script>
 </head>
 <body>
+
+<!-- HEADER -->
+
     <header class="site-header">
         <div class="flex-between">
             <div class="info">
@@ -32,6 +34,9 @@
             </div>
         </div>
     </header>
+
+<!-- NAVIGATION -->
+
     <section class="navi">
         <div class="flex-between">
             <div class="logo">
@@ -56,6 +61,9 @@
             </nav>
         </div>
     </section>
+
+<!-- CONTACT PAGE -->
+
     <section class="contact-page">
         <div class="container">
             <div class="contact-page-info">
@@ -106,7 +114,7 @@
             <div class="contact-bottom">
                 <div class="company-info">
                     <h3>UAB Krisma</h3>
-                    <p>Centrine g. 2A, Ramuciai, Kauno raj. LT-54464</p>
+                    <p><a href="https://goo.gl/maps/p6VpQKusNMp5dN138" target="_blank">Centrine g. 2A, Ramuciai, Kauno raj. LT-54464</a></p>
                     <p>Company code: 134441497</p>
                     <p>VAT/EORI code: LT344414917</p>
                     <p><a href="tel:+37012345678">+37012345678</a></p>
@@ -119,10 +127,7 @@
         </div>
     </section>
 
-
-
-
-
+<!-- FOOTER MAIN -->
 
     <section class="footer-main">
         <div class="flex-between">
@@ -143,6 +148,9 @@
             </div>
         </div>
     </section>
+
+<!-- FOOTER SUB -->
+
     <footer class="footer-sub">
         <div class="flex-between">
             <div class="copyright">

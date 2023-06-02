@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="css/style.css">    
+    <link rel="stylesheet" href="css/index.css">    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
@@ -35,7 +35,7 @@
         </div>
     </header>
 
-    <!-- NAVIGATION -->
+<!-- NAVIGATION -->
 
     <section class="navi">
         <div class="flex-between">
@@ -62,7 +62,7 @@
         </div>
     </section>
                                 
-    <!-- HERO -->
+<!-- HERO -->
 
     <section class="hero" id="hero">
         <div class="container">
@@ -72,7 +72,7 @@
         </div>
     </section>
 
-    <!-- SERVICES -->
+<!-- SERVICES -->
 
     <section class="services">
         <div class="container">
@@ -100,7 +100,7 @@
         </div>
     </section>
 
-    <!-- LOCATION -->
+<!-- LOCATION -->
 
     <section class="location">
         <div class="container">
@@ -110,7 +110,7 @@
         </div>
     </section>
 
-    <!-- CONTACT -->
+<!-- CONTACT -->
 
     <section class="contact" id="targetElement">
         <div class="container">
@@ -135,7 +135,7 @@
         </div>
     </section>
 
-    <!-- FOOTER MAIN -->
+<!-- FOOTER MAIN -->
 
     <section class="footer-main">
         <div class="flex-between">
@@ -157,7 +157,7 @@
         </div>
     </section>
 
-    <!-- FOOTER SUB -->
+<!-- FOOTER SUB -->
                             
     <footer class="footer-sub">
         <div class="flex-between">
