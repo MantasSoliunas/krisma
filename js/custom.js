@@ -5,7 +5,7 @@ function scrollToElement() {
     targetElement.scrollIntoView({ behavior: 'smooth' });
   }
 
-//   MOBILE NAV 
+// MOBILE NAV 
 
 function myFunction() {
     var x = document.getElementById('mMenu');
@@ -18,7 +18,7 @@ function myFunction() {
 
 // HERO BACKGROUND CHANGE
 
-var images = ['./img/webp/hero-drone2.webp', './img/webp/hero-drone3.webp', './img/webp/hero-tir.webp', './img/webp/hero-drone1.webp'];
+var images = ['img/webp/hero-drone2.webp', 'img/webp/hero-drone3.webp', 'img/webp/hero-tir.webp', 'img/webp/hero-drone1.webp'];
 var currentIndex = 0;
 
 function changeBackgroundImage() {
