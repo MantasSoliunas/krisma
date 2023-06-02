@@ -40,7 +40,7 @@
     <section class="navi">
         <div class="flex-between">
             <div class="logo">
-                <a href="index.php"><img src="img/logo_color.png" alt="Krisma logo" width="161px"></a>
+                <a href="index.php"><img src="img/logo_color.png" alt="Krisma logo" width="161"></a>
             </div>
             <nav>
                 <ul class="main-nav">
@@ -78,7 +78,7 @@
         <div class="container">
             <div class="section-heading">
             <h1>Logistics and transport services at your call</h1>
-            <h3>Our company can provide different services such as - organizing road transport, warehousing and offer supply chain solutions</h2>
+            <h3>Our company can provide different services such as - organizing road transport, warehousing and offer supply chain solutions</h3>
             </div>
             <div class="section-content">
                     <i class="bi bi-truck"></i>
@@ -119,13 +119,19 @@
                 <p>Leave a message or inquiry for our team and we are sure to get back to you in a few business days</p>
             </div>
             <div class="section-content">
-                <form class="contact-form">
+                <form class="contact-form" id="myForm" onsubmit="submitForm(event)" method="POST">
                     <div class="input-row">
-                        <input type="text" placeholder="Your Name" name="name">
-                        <input type="email" placeholder="Your Email" name="email">
+                        <input type="text" placeholder="Your Name" name="name" required>
+                        <input type="email" placeholder="Your Email" name="email" required>
                     </div>
-                    <textarea name="message" placeholder="Your Message" rows="8"></textarea>
+                    <textarea name="message" placeholder="Your Message" rows="8" required></textarea>
                     <input type="submit" name="submit" class="btn btn-form">
+                </form>
+            </div>
+            <div id="submittedText" style="display: none;">
+                <h2>Thank you for submitting the form!</h2>
+                <h3>Our team will get back to you as soon as possible</h3>
+            </div>
         </div>
     </section>
 

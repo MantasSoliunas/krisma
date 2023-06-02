@@ -99,7 +99,7 @@ body {
     height:600px;
     text-align:center;
     animation: hero-load 900ms ease-in;
-    background-image: url('/img/hero-drone1.png');
+    background-image: url('./img/webp/hero-drone1.webp');
     background-size: cover;
     transition: background-image 1.5s ease-in-out;
 }
@@ -142,7 +142,7 @@ body {
     
 }
 
-@keyframes hero-load {
+/* @keyframes hero-load {
     0% {
         opacity: 0;
     }
@@ -150,7 +150,7 @@ body {
     100% {
         opacity: 1;
     }
-}
+} */
 
 @keyframes button-load {
     0% {
@@ -308,6 +308,13 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+#submittedText h2, #submittedText h3 {
+    text-align:center;
+}
+
+#submittedText h2 {
+    color:#00bb9b;
+}
 /* FOOTER MAIN */
 
 .footer-main {
