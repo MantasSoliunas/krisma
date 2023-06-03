@@ -99,7 +99,7 @@ body {
     height:600px;
     text-align:center;
     animation: hero-load 900ms ease-in;
-    background-image: url('/img/hero-drone1.png');
+    background-image: url('/project_new/img/hero-drone1.png');
     background-size: cover;
     transition: background-image 1.5s ease-in-out;
 }
