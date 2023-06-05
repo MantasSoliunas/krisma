@@ -9,7 +9,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
-    <script src="js/custom.js"></script>
     <title>Krisma</title>    
 </head>
 <body>
@@ -17,6 +16,16 @@
 <!-- HEADER -->
 
     <header class="site-header">
+    <script>
+    function myFunction() {
+    var x = document.getElementById('mMenu');
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+}
+    </script>
         <div class="flex-between">
             <div class="info">
                 <ul class="info">
@@ -67,13 +76,16 @@
     <section class="about-page">
         <div class="container">
             <div class="about-row1">
-                <h3>We take pride in being a family business with over 20 years of experience in delivering exceptional shipping solutions. Our dedication to providing high-quality services sets us apart in the industry. We prioritize clear communication, attention to detail, and personalized solutions tailored to your requirements. </h3>
+                <h3 class="h3desktop">We take pride in being a family business with over 20 years of experience in delivering exceptional shipping solutions. Our dedication to providing high-quality services sets us apart in the industry. We prioritize clear communication, attention to detail, and personalized solutions tailored to your requirements. </h3>
                 <img src="img/drone1.webp" alt="drone photo" width="550px">
+                <h3 class="h3mobile">We take pride in being a family business with over 20 years of experience in delivering exceptional shipping solutions. Our dedication to providing high-quality services sets us apart in the industry.</h3>
             </div>
             <div class="splitline"></div>
             <div class="about-row2">
+                
                 <img src="img/drone2.webp" alt="drone photo" width="550px">
-                <h3>With our extensive knowledge and expertise, we ensure that your goods are handled with the utmost care and delivered to their destination in a timely manner. Join countless satisfied customers who have experienced the difference of working with our reliable and customer-centric company. </h3>
+                <h3 class="h3mobile">With our extensive knowledge and expertise, we ensure that your goods are handled with the utmost care and delivered to their destination in a timely manner.</h3>
+                <h3 class="h3desktop">With our extensive knowledge and expertise, we ensure that your goods are handled with the utmost care and delivered to their destination in a timely manner. Join countless satisfied customers who have experienced the difference of working with our reliable and customer-centric company. </h3>
             </div>
             <div class="splitline"></div>
             <div class="about-row3" style="background-image: url('img/truck-moving.png');">

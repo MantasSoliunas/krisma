@@ -150,6 +150,7 @@ body {
     }
 }
 
+
 .about-row2 h3 {
     padding: 25px;
     font-size:1.5rem;
@@ -166,6 +167,10 @@ body {
         transform:translateX(0);
         opacity:1;
     }
+}
+
+.h3mobile {
+    display:none;
 }
 .about-row1 img, .about-row2 img {
     padding: 20px;
@@ -227,24 +232,6 @@ body {
 
 .about-page .container .mobile-about-row3 {
     display:none;
-}
-
-.mobile-about-row3 {
-    display:flex;
-    flex-direction:column;
-    justify-content: space-around;
-    align-items:center;
-}
-
-.mobile-about-row3 .row3-fleet, .mobile-about-row3 .row3-experience, .mobile-about-row3 .row3-kilometers {
-    border: 1px solid black;
-    height:300px;
-    width:300px;
-    border-radius:50%;
-}
-
-.mobile-about-row3 .row3-fleet h2, .mobile-about-row3 .row3-experience h2, .mobile-about-row3 .row3-kilometers h2 {
-    padding-top: 40px;
 }
 
 /* FOOTER MAIN */
@@ -351,38 +338,36 @@ footer {
         right:0;
         font-weight:bold;
     }
+    .about-row3 {
+        display:none;
+    }
+    .about-row1, .about-row2 {
+        flex-direction:column;
+    }
+    .about-row1 img, .about-row2 img {
+        width:100%;
+    }
+    .h3desktop {
+        display:none;
+    }
+    .h3mobile {
+        display:block;
+    }
     .about-page .container .mobile-about-row3 {
     display:flex;
     flex-direction:column;
     justify-content: space-around;
     align-items: center;
     }
-    .about-row3 {
-        display:none;
-    }
-    .mobile-about-row3 {
-        display:flex;
-        flex-direction:column;
-        justify-content: space-around;
-        align-items:center;
-    }
     .mobile-about-row3 .row3-fleet, .mobile-about-row3 .row3-experience, .mobile-about-row3 .row3-kilometers {
         border: 1px solid black;
         height:300px;
         width:300px;
         border-radius:50%;
+        margin-left:45px;
     }
     .mobile-about-row3 .row3-fleet h2, .mobile-about-row3 .row3-experience h2, .mobile-about-row3 .row3-kilometers h2 {
         padding-top: 40px;
-    }
-    .mobile-about-row3 .row3-fleet, .mobile-about-row3 .row3-experience, .mobile-about-row3 .row3-kilometers {
-    border: 1px solid black;
-    height:300px;
-    width:300px;
-    border-radius:50%;
-    }
-    .mobile-about-row3 .row3-fleet h2, .mobile-about-row3 .row3-experience h2, .mobile-about-row3 .row3-kilometers h2 {
-    padding-top: 40px;
     }
     .footer-main .flex-between {
         flex-direction:column;

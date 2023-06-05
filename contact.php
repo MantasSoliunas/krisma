@@ -10,7 +10,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
     <title>Krisma</title>
-    <script src="js/custom.js"></script>
 </head>
 <body>
 
@@ -38,6 +37,16 @@
 <!-- NAVIGATION -->
 
     <section class="navi">
+<script>
+    function myFunction() {
+    var x = document.getElementById('mMenu');
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+}
+</script>
         <div class="flex-between">
             <div class="logo">
                 <a href="index.php"><img src="img/logo_color.png" alt="Krisma logo" width="161px"></a>

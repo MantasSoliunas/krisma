@@ -270,6 +270,13 @@ footer {
     .company-map {
         display:none;
     }
+    .contact-page-info {
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        margin:0;
+    }
     .footer-main .flex-between {
         flex-direction:column;
         text-align:center;

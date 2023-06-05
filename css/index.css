@@ -247,6 +247,10 @@ body {
     margin:0
 }
 
+iframe {
+    width:100%;
+}
+
 /* CONTACT */
 
 .contact {
