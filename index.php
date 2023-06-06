@@ -68,7 +68,7 @@
         <div class="container">
             <h1>Your reliable transport partner!</h1>
             <h2>Contact us for all your transport or logistics needs and let us handle all your troubles.</h2>
-            <button onclick="scrollToElement()">Get in touch!</button>
+            <div class="button_slide" onclick="scrollToElement()">Get in touch!</div>
         </div>
     </section>
 
@@ -125,7 +125,7 @@
                         <input type="email" placeholder="Your Email" name="email" required>
                     </div>
                     <textarea name="message" placeholder="Your Message" rows="8" required></textarea>
-                    <input type="submit" name="submit" class="btn btn-form">
+                    <input type="submit" name="submit" class="submit-btn-slide">
                 </form>
             </div>
             <div id="submittedText" style="display: none;">
