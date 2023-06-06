@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/css/flag-icons.min.css">
     <link rel="stylesheet" href="css/index.css">    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -40,13 +41,14 @@
     <section class="navi">
         <div class="flex-between">
             <div class="logo">
-                <a href="index.php"><img src="img/logo_color.png" alt="Krisma logo" width="161"></a>
+                <a href="index.php"><img src="/project_new/img/logo_color.png" alt="Krisma logo" width="161"></a>
             </div>
             <nav>
                 <ul class="main-nav">
                     <li><a href="index.php">Home</a></li>
                     <li><a href="about.php">About</a></li>
                     <li><a href="contact.php">Contact</a></li>
+                    <li><a href="/project_new/pradinis.php"><span class="fi fi-lt"></span></a></li>
                 </ul>
             </nav>
             <nav class="mobile-nav">
@@ -54,6 +56,7 @@
                     <li><a href="index.php">Home</a></li>
                     <li><a href="about.php">About</a></li>
                     <li><a href="contact.php">Contact</a></li>
+                    <li><a href="/project_new/pradinis.php"><span class="fi fi-lt"></span></a></li>
                 </ul>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                     <i class="bi bi-list"></i>
@@ -141,7 +144,7 @@
         <div class="flex-between">
             <div class="who">
                 <h2>Who we are</h2>
-                <a href="index.php"><img src="img/logo_white.png" alt="Krisma logo" width="161px"></a>
+                <a href="index.php"><img src="/project_new/img/logo_white.png" alt="Krisma logo" width="161px"></a>
                 <p>With a strong emphasis on customer satisfaction and attention to detail, we have built a reputation as a trusted and dependable partner for businesses and individuals alike.</p>
                 <a href="about.php"><strong>More about us<i class="bi bi-arrow-right"></i></strong></a>
             </div>
