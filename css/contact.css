@@ -143,6 +143,16 @@ body {
     margin-top:10px;
 }
 
+.splitline {
+    content:"";
+    display:block;
+    width:130px;
+    border-top:4px solid #00bb9b;
+    margin:22px auto;
+    animation: splitline-load 1s ease-in;
+    animation-duration: 2s;
+}
+
 .contact-bottom {
     display:flex;
     justify-content:space-around;
@@ -351,19 +361,34 @@ footer {
         right:0;
         font-weight:bold;
     }
+    .company-map {
+        display:none;
+    }
+    .contact-page-info {
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        align-items:center;
+        margin:0;
+    }
     .footer-main .flex-between {
         flex-direction:column;
         text-align:center;
     }
-    .footer-main .flex-between .who h2, .footer-main .flex-between .who p, .footer-main .flex-between .who strong, .footer-main .flex-between .contact-info h2, .footer-main .flex-between .contact-info p, .footer-main .flex-between .contact-info a {
-        font-size: 1.25rem;
-        margin:0;
+    .footer-main .flex-between .who h2, .footer-main .flex-between .who p, .footer-main .flex-between .who strong, .footer-main .flex-between .contact-info h2, .footer-main .flex-between .contact-info p {
+        display:none;
     }
-    .footer-main .flex-between .contact-info h2 {
-        padding-top:25px;
-        padding-bottom:25px;
+    .footer-main .flex-between .who img, .footer-main .flex-between .contact-info a, .footer-main .flex-between .contact-info i {
+        font-size:1.15rem;
     }
-    .footer-sub .socials, .footer-sub .copyright {
-        font-size:1.25rem;
+    .footer-sub .flex-between {
+        flex-direction:column;
+        font-size:1rem;
+    }
+    .footer-sub .flex-between .socials {
+        text-align:center;
+        font-size:1.5rem;
+        padding:0;
+        margin-top:0;
     }
 }

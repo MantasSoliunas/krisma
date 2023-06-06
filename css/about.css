@@ -443,23 +443,33 @@ footer {
         right:0;
         font-weight:bold;
     }
-    .about-page .container .about-row3 {
+    .about-row3 {
         display:none;
     }
-    .about-page .container .mobile-about-row3 {
+    .about-row1, .about-row2 {
+        flex-direction:column;
+    }
+    .about-row1 img, .about-row2 img {
+        width:100%;
+    }
+    .h3desktop {
+        display:none;
+    }
+    .h3mobile {
         display:block;
     }
-    .mobile-about-row3 {
-        display:flex;
-        flex-direction:column;
-        justify-content: space-around;
-        align-items:center;
+    .about-page .container .mobile-about-row3 {
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
     }
     .mobile-about-row3 .row3-fleet, .mobile-about-row3 .row3-experience, .mobile-about-row3 .row3-kilometers {
         border: 1px solid black;
         height:300px;
         width:300px;
         border-radius:50%;
+        margin-left:45px;
     }
     .mobile-about-row3 .row3-fleet h2, .mobile-about-row3 .row3-experience h2, .mobile-about-row3 .row3-kilometers h2 {
         padding-top: 40px;
@@ -468,90 +478,20 @@ footer {
         flex-direction:column;
         text-align:center;
     }
-    .footer-main .flex-between .who h2, .footer-main .flex-between .who p, .footer-main .flex-between .who strong, .footer-main .flex-between .contact-info h2, .footer-main .flex-between .contact-info p, .footer-main .flex-between .contact-info a {
-        font-size: 1.25rem;
-        margin:0;
-    }
-    .footer-main .flex-between .contact-info h2 {
-        padding-top:25px;
-        padding-bottom:25px;
-    }
-    .footer-sub .socials, .footer-sub .copyright {
-        font-size:1.25rem;
-    }
-}
-
-/* .about-page .container .mobile-about-row3 {
-    display:none;
-} */
-
-/* .mobile-about-row3 {
-    display:flex;
-    flex-direction:column;
-    justify-content: space-around;
-    align-items:center;
-}
-
-.mobile-about-row3 .row3-fleet, .mobile-about-row3 .row3-experience, .mobile-about-row3 .row3-kilometers {
-    border: 1px solid black;
-    height:300px;
-    width:300px;
-    border-radius:50%;
-}
-
-.mobile-about-row3 .row3-fleet h2, .mobile-about-row3 .row3-experience h2, .mobile-about-row3 .row3-kilometers h2 {
-    padding-top: 40px;
-} */
-
-/* mobile
-
-.about-page .container .about-row3 {
+    .footer-main .flex-between .who h2, .footer-main .flex-between .who p, .footer-main .flex-between .who strong, .footer-main .flex-between .contact-info h2, .footer-main .flex-between .contact-info p {
         display:none;
     }
-    .about-page .container .mobile-about-row3 {
-    display:flex;
-    flex-direction:column;
-    justify-content: space-around;
-    align-items:center;
+    .footer-main .flex-between .who img, .footer-main .flex-between .contact-info a, .footer-main .flex-between .contact-info i {
+        font-size:1.15rem;
     }
-
-    .mobile-about-row3 .row3-fleet, .mobile-about-row3 .row3-experience, .mobile-about-row3 .row3-kilometers {
-    border: 1px solid black;
-    height:300px;
-    width:300px;
-    border-radius:50%;
-    }
-
-    .mobile-about-row3 .row3-fleet h2, .mobile-about-row3 .row3-experience h2, .mobile-about-row3 .row3-kilometers h2 {
-    padding-top: 40px;
-    }
-
- */
-
-
- /* tablet
- 
- 
- .about-page .container .about-row3 {
-        display:none;
-    }
-    .about-page .container .mobile-about-row3 {
-        display:block;
-    }
-    .mobile-about-row3 {
-        display:flex;
+    .footer-sub .flex-between {
         flex-direction:column;
-        justify-content: space-around;
-        align-items:center;
-        }
-    .mobile-about-row3 .row3-fleet, .mobile-about-row3 .row3-experience, .mobile-about-row3 .row3-kilometers {
-        border: 1px solid black;
-        height:300px;
-        width:300px;
-        border-radius:50%;
-        }
-    .mobile-about-row3 .row3-fleet h2, .mobile-about-row3 .row3-experience h2, .mobile-about-row3 .row3-kilometers h2 {
-        padding-top: 40px;
-        }
-
-*/
+        font-size:1rem;
+    }
+    .footer-sub .flex-between .socials {
+        text-align:center;
+        font-size:1.5rem;
+        padding:0;
+        margin-top:0;
+    }
+}
