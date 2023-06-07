@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/contact.css">  
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/css/flag-icons.min.css">
+    <link rel="stylesheet" href="css/contact.css"> 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
@@ -49,20 +50,22 @@
 </script>
         <div class="flex-between">
             <div class="logo">
-                <a href="index.php"><img src="img/logo_color.png" alt="Krisma logo" width="161px"></a>
+                <a href="/project_new/en/index.php"><img src="/project_new/img/logo_color.png" alt="Krisma logo" width="161px"></a>
             </div>
             <nav>
                 <ul class="main-nav">
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="about.php">About</a></li>
-                    <li><a href="contact.php">Contact</a></li>
+                    <li><a href="/project_new/en/index.php">Home</a></li>
+                    <li><a href="/project_new/en/about.php">About</a></li>
+                    <li><a href="/project_new/en/contact.php">Contact</a></li>
+                    <li><a href="/project_new/kontaktai.php"><span class="fi fi-lt"></span></a></li>
                 </ul>
             </nav>
             <nav class="mobile-nav">
                 <ul id="mMenu" class="main-nav">
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="about.php">About</a></li>
-                    <li><a href="contact.php">Contact</a></li>
+                    <li><a href="/project_new/en/index.php">Home</a></li>
+                    <li><a href="/project_new/en/about.php">About</a></li>
+                    <li><a href="/project_new/en/contact.php">Contact</a></li>
+                    <li><a href="/project_new/kontaktai.php"><span class="fi fi-lt"></span></a></li>
                 </ul>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                     <i class="bi bi-list"></i>
@@ -77,44 +80,44 @@
         <div class="container">
             <div class="contact-page-info">
                 <div class="contact1">
-                    <img src="img/user.png" alt="" width="200px;">
-                    <h2>Vardas Pavardas</h2>
-                    <p>Vyr. darbininkas</p>
+                    <img src="../img/user.png" alt="photo" width="200px;">
+                    <h2>Michael Scott</h2>
+                    <p>Regional Manager</p>
                     <p><a href="tel:+37012345678">+37012345678</a></p>
                     <p><a href="mailto:random@random.lt">random@random.lt</a></p>
                 </div>
                 <div class="contact1">
-                    <img src="img/user.png" alt="" width="200px;">
-                    <h2>Vardas Pavardas</h2>
-                    <p>Vyr. darbininko pavaduotojas</p>
+                    <img src="../img/user.png" alt="photo" width="200px;">
+                    <h2>Dwight Schrute</h2>
+                    <p>Assistant Regional Manager </p>
                     <p><a href="tel:+37012345678">+37012345678</a></p>
                     <p><a href="mailto:random@random.lt">random@random.lt</a></p>
                 </div>
                 <div class="contact1">
-                    <img src="img/user.png" alt="" width="200px;">
-                    <h2>Vardas Pavardas</h2>
-                    <p>Darbo padalinio vadovas</p>
+                    <img src="../img/user.png" alt="photo" width="200px;">
+                    <h2>Jim Halpert</h2>
+                    <p>Assistant to the Regional Manager</p>
                     <p><a href="tel:+37012345678">+37012345678</a></p>
                     <p><a href="mailto:random@random.lt">random@random.lt</a></p>
                 </div>
                 <div class="contact1">
-                    <img src="img/user.png" alt="" width="200px;">
-                    <h2>Vardas Pavardas</h2>
-                    <p>Vadybininkas</p>
+                    <img src="../img/user.png" alt="photo" width="200px;">
+                    <h2>Pam Halpert</h2>
+                    <p>Office Administrator</p>
                     <p><a href="tel:+37012345678">+37012345678</a></p>
                     <p><a href="mailto:random@random.lt">random@random.lt</a></p>
                 </div>
                 <div class="contact1">
-                    <img src="img/user.png" alt="" width="200px;">
-                    <h2>Vardas Pavardas</h2>
-                    <p>Buhalteris</p>
+                    <img src="../img/user.png" alt="photo" width="200px;">
+                    <h2>Kevin Malone</h2>
+                    <p>Accountant</p>
                     <p><a href="tel:+37012345678">+37012345678</a></p>
                     <p><a href="mailto:random@random.lt">random@random.lt</a></p>
                 </div>
                 <div class="contact1">
-                    <img src="img/user.png" alt="" width="200px;">
-                    <h2>Vardas Pavardas</h2>
-                    <p>Praktikantas</p>
+                    <img src="../img/user.png" alt="photo" width="200px;">
+                    <h2>Ryan Howard</h2>
+                    <p>Temp</p>
                     <p><a href="tel:+37012345678">+37012345678</a></p>
                     <p><a href="mailto:random@random.lt">random@random.lt</a></p>
                 </div>
@@ -142,9 +145,9 @@
         <div class="flex-between">
             <div class="who">
                 <h2>Who we are</h2>
-                <a href="index.php"><img src="img/logo_white.png" alt="Krisma logo" width="161px"></a>
+                <a href="/project_new/en/index.php"><img src="/project_new/img/logo_white.png" alt="Krisma logo" width="161px"></a>
                 <p>With a strong emphasis on customer satisfaction and attention to detail, we have built a reputation as a trusted and dependable partner for businesses and individuals alike.</p>
-                <a href="about.php"><strong>More about us<i class="bi bi-arrow-right"></i></strong></a>
+                <a href="/project_new/en/about.php"><strong>More about us<i class="bi bi-arrow-right"></i></strong></a>
             </div>
             <div class="contact-info">
                 <h2>Let us know!</h2>

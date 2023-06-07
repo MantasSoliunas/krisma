@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/css/flag-icons.min.css">
+    <link rel="stylesheet" href="css/about.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
@@ -49,20 +50,22 @@
     <section class="navi">
         <div class="flex-between">
             <div class="logo">
-                <a href="index.php"><img src="img/logo_color.png" alt="Krisma logo" width="161px"></a>
+                <a href="/project_new/en/index.php"><img src="/project_new/img/logo_color.png" alt="Krisma logo" width="161px"></a>
             </div>
             <nav>
                 <ul class="main-nav">
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="about.php">About</a></li>
-                    <li><a href="contact.php">Contact</a></li>
+                    <li><a href="/project_new/en/index.php">Home</a></li>
+                    <li><a href="/project_new/en/about.php">About</a></li>
+                    <li><a href="/project_new/en/contact.php">Contact</a></li>
+                    <li><a href="/project_new/apie.php"><span class="fi fi-lt"></span></a></li>
                 </ul>
             </nav>
             <nav class="mobile-nav">
                 <ul id="mMenu" class="main-nav">
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="about.php">About</a></li>
-                    <li><a href="contact.php">Contact</a></li>
+                    <li><a href="/project_new/en/index.php">Home</a></li>
+                    <li><a href="/project_new/en/about.php">About</a></li>
+                    <li><a href="/project_new/en/contact.php">Contact</a></li>
+                    <li><a href="/project_new/apie.php"><span class="fi fi-lt"></span></a></li>
                 </ul>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                     <i class="bi bi-list"></i>
@@ -77,18 +80,17 @@
         <div class="container">
             <div class="about-row1">
                 <h3 class="h3desktop">We take pride in being a family business with over 20 years of experience in delivering exceptional shipping solutions. Our dedication to providing high-quality services sets us apart in the industry. We prioritize clear communication, attention to detail, and personalized solutions tailored to your requirements. </h3>
-                <img src="img/drone1.webp" alt="drone photo" width="550px">
+                <img src="/project_new/img/drone1.webp" alt="drone photo" width="550px">
                 <h3 class="h3mobile">We take pride in being a family business with over 20 years of experience in delivering exceptional shipping solutions. Our dedication to providing high-quality services sets us apart in the industry.</h3>
             </div>
             <div class="splitline"></div>
-            <div class="about-row2">
-                
-                <img src="img/drone2.webp" alt="drone photo" width="550px">
+            <div class="about-row2">  
+                <img src="/project_new/img/drone2.webp" alt="drone photo" width="550px">
                 <h3 class="h3mobile">With our extensive knowledge and expertise, we ensure that your goods are handled with the utmost care and delivered to their destination in a timely manner.</h3>
                 <h3 class="h3desktop">With our extensive knowledge and expertise, we ensure that your goods are handled with the utmost care and delivered to their destination in a timely manner. Join countless satisfied customers who have experienced the difference of working with our reliable and customer-centric company. </h3>
             </div>
             <div class="splitline"></div>
-            <div class="about-row3" style="background-image: url('img/truck-moving.png');">
+            <div class="about-row3" style="background-image: url('/project_new/img/truck-moving.png');">
                 <div class="row3-fleet">
                     <h2>30+</h2>
                     <p>Trucks in our current fleet</p>
@@ -103,17 +105,17 @@
                 </div> 
             </div>
             <div class="mobile-about-row3">
-                <div class="row3-fleet" style="background-image: url('img/truck-mobile.png');">
+                <div class="row3-fleet" style="background-image: url('/project_new/img/truck-mobile.png');">
                     <h2>30+</h2>
                     <p>Trucks in our current fleet</p>
                 </div>
                 <div class="splitline"></div>
-                <div class="row3-experience" style="background-image: url('img/truck-mobile.png');">
+                <div class="row3-experience" style="background-image: url('/project_new/img/truck-mobile.png');">
                     <h2>20+</h2>
                     <p>Years of experience in the field</p>
                 </div>
                 <div class="splitline"></div>
-                <div class="row3-kilometers" style="background-image: url('img/truck-mobile.png');">
+                <div class="row3-kilometers" style="background-image: url('/project_new/img/truck-mobile.png');">
                     <h2>50M+</h2>
                     <p>Kilometers our trucks made over the years</p>
                 </div>
@@ -128,9 +130,9 @@
         <div class="flex-between">
             <div class="who">
                 <h2>Who we are</h2>
-                <a href="index.php"><img src="img/logo_white.png" alt="Krisma logo" width="161px"></a>
+                <a href="/project_new/en/index.php"><img src="/project_new/img/logo_white.png" alt="Krisma logo" width="161px"></a>
                 <p>With a strong emphasis on customer satisfaction and attention to detail, we have built a reputation as a trusted and dependable partner for businesses and individuals alike.</p>
-                <a href="about.php"><strong>More about us<i class="bi bi-arrow-right"></i></strong></a>
+                <a href="/project_new/en/about.php"><strong>More about us<i class="bi bi-arrow-right"></i></strong></a>
             </div>
             <div class="contact-info">
                 <h2>Let us know!</h2>

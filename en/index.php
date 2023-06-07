@@ -41,21 +41,21 @@
     <section class="navi">
         <div class="flex-between">
             <div class="logo">
-                <a href="index.php"><img src="/project_new/img/logo_color.png" alt="Krisma logo" width="161"></a>
+                <a href="/project_new/en/index.php"><img src="/project_new/img/logo_color.png" alt="Krisma logo" width="161"></a>
             </div>
             <nav>
                 <ul class="main-nav">
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="about.php">About</a></li>
-                    <li><a href="contact.php">Contact</a></li>
+                    <li><a href="/project_new/en/index.php">Home</a></li>
+                    <li><a href="/project_new/en/about.php">About</a></li>
+                    <li><a href="/project_new/en/contact.php">Contact</a></li>
                     <li><a href="/project_new/pradinis.php"><span class="fi fi-lt"></span></a></li>
                 </ul>
             </nav>
             <nav class="mobile-nav">
                 <ul id="mMenu" class="main-nav">
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="about.php">About</a></li>
-                    <li><a href="contact.php">Contact</a></li>
+                    <li><a href="/project_new/en/index.php">Home</a></li>
+                    <li><a href="/project_new/en/about.php">About</a></li>
+                    <li><a href="/project_new/en/contact.php">Contact</a></li>
                     <li><a href="/project_new/pradinis.php"><span class="fi fi-lt"></span></a></li>
                 </ul>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -144,9 +144,9 @@
         <div class="flex-between">
             <div class="who">
                 <h2>Who we are</h2>
-                <a href="index.php"><img src="/project_new/img/logo_white.png" alt="Krisma logo" width="161px"></a>
+                <a href="/project_new/en/index.php"><img src="/project_new/img/logo_white.png" alt="Krisma logo" width="161px"></a>
                 <p>With a strong emphasis on customer satisfaction and attention to detail, we have built a reputation as a trusted and dependable partner for businesses and individuals alike.</p>
-                <a href="about.php"><strong>More about us<i class="bi bi-arrow-right"></i></strong></a>
+                <a href="/project_new/en/about.php"><strong>More about us<i class="bi bi-arrow-right"></i></strong></a>
             </div>
             <div class="contact-info">
                 <h2>Let us know!</h2>

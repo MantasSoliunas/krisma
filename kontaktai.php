@@ -57,7 +57,7 @@
                     <li><a href="pradinis.php">Pradinis</a></li>
                     <li><a href="apie.php">Apie</a></li>
                     <li><a href="kontaktai.php">Kontaktai</a></li>
-                    <li><a href="/project_new/en/index.php"><span class="fi fi-gb"></span></a></li>
+                    <li><a href="/project_new/en/contact.php"><span class="fi fi-gb"></span></a></li>
                 </ul>
             </nav>
             <nav class="mobile-nav">
@@ -65,7 +65,7 @@
                     <li><a href="pradinis.php">Pradinis</a></li>
                     <li><a href="apie.php">Apie</a></li>
                     <li><a href="kontaktai.php">Kontaktai</a></li>
-                    <li><a href="/project_new/en/index.php"><span class="fi fi-gb"></span></a></li>
+                    <li><a href="/project_new/en/contact.php"><span class="fi fi-gb"></span></a></li>
                 </ul>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                     <i class="bi bi-list"></i>
