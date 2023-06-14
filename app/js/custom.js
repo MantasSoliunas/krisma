@@ -18,7 +18,7 @@ function myFunction() {
 
 // HERO BACKGROUND CHANGE
 
-var images = ['/project_new/img/hero-drone2.png', '/project_new/img/hero-drone3.png', '/project_new/img/hero-tir.png', '/project_new/img/hero-drone1.png'];
+var images = ['../../app/img/hero-drone2.png', '../../app/img/hero-drone3.png', '../../app/img/hero-tir.png', '../../app/img/hero-drone1.png'];
 var currentIndex = 0;
 
 function changeBackgroundImage() {
