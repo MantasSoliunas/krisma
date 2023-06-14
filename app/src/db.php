@@ -11,4 +11,4 @@
         exit();
     }
 
-    mysqli_query($mysqli, "INSERT INTO klientai (vardas, email, message) VALUES('$_POST[vardas]', '$_POST[email]', '$_POST[message]')");
+    mysqli_query($mysqli, "INSERT INTO messages (vardas, email, message) VALUES('$_POST[vardas]', '$_POST[email]', '$_POST[message]')");

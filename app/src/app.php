@@ -6,7 +6,7 @@
 
         if(!empty($vardas) && !empty($email) && !empty($message)) {
             if(filter_var($email, FILTER_VALIDATE_EMAIL)) {
-                // include 'db.php';
+                include 'db.php';
                 $from = "$email";
                 $to = "info@krisma.lt";
                 $subject = "Nauja žinutė";
