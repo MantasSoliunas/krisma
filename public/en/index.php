@@ -1,5 +1,5 @@
-<?php
-    require __DIR__ . '../../app/src/app.php'
+<?php 
+    require __DIR__ . '/../../app/src/app.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">

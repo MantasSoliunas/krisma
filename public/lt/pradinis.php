@@ -1,5 +1,5 @@
 <?php 
-    var_dump($_POST);
+    require __DIR__ . '/../../app/src/app.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
