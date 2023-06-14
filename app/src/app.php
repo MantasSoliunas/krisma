@@ -4,7 +4,7 @@
         $email = trim($_POST['email']);
         $message = trim($_POST['message']);
 
-        if(!empty($vardas) && !empty($email) && !empty($message)) {
+        if(!empty($name) && !empty($email) && !empty($message)) {
             if(filter_var($email, FILTER_VALIDATE_EMAIL)) {
                 include 'db.php';
                 $from = "$email";
