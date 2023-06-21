@@ -81,7 +81,7 @@
                 <p>Palikite savo užklausą ir mūsų komanda su Jumis susisieks per kelias darbo dienas!</p>
             </div>
             <div class="section-content">
-                <form class="contact-form" id="myForm" action="pradinis.php" method="POST">
+                <form class="contact-form" id="myForm" action="../../app/src/db.php" method="POST">
                     <div class="input-row">
                         <input type="text" name="name" placeholder="Vardas"  required>
                         <input type="email" name="email" placeholder="El. paštas" required>
@@ -96,7 +96,6 @@
             </div>
         </div>
     </section>
-
 <!-- FOOTER MAIN -->
     <?php include '../../app/views/lt/footer_main_lt.php'; ?>
     

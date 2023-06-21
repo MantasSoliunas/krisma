@@ -1,4 +1,5 @@
 <?php
+    require_once '../js/custom.js';
     define("DB_SERVER", "localhost");
     define("DB_USER", "root");
     define("DB_PASSWORD", "root");
@@ -12,3 +13,8 @@
     }
 
     mysqli_query($mysqli, "INSERT INTO messages (name, email, message) VALUES('$_POST[name]', '$_POST[email]', '$_POST[message]')");
+
+   echo '<script type="text/javascript">';
+   echo 'submitForm(event);';
+   echo '</script>';
+

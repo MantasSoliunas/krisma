@@ -31,12 +31,12 @@ setInterval(changeBackgroundImage, 3000);
 
 // SUBMIT FORM 
 
-// function submitForm(event) {
-//     event.preventDefault();
+function submitForm(event) {
+    event.preventDefault();
   
-//     var form = document.getElementById('myForm');
-//     form.style.display = 'none';
+    var form = document.getElementById('myForm');
+    form.style.display = 'none';
   
-//     var submittedText = document.getElementById('submittedText');
-//     submittedText.style.display = 'block';
-//   }
+    var submittedText = document.getElementById('submittedText');
+    submittedText.style.display = 'block';
+  }
