@@ -31,6 +31,7 @@ body {
 
 .socials, .info {
     display:flex;
+    justify-content:center;
     list-style:none;
 }
 
@@ -388,7 +389,11 @@ footer {
     background-color:#273545;
     color:#707e8c;
     font-size:0.875rem;
+    display:flex;
+    justify-content:center;
 }
+
+
 
 /* MOBILE SCREEN - INDEX */
 

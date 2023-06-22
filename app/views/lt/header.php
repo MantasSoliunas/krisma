@@ -1,5 +1,5 @@
 <header class="site-header">
-        <div class="flex-between">
+        <!-- <div class="flex-between"> -->
             <div class="info">
                 <ul class="info">
                 <li><i class="bi bi-envelope"></i><a href="mailto:info@krisma.lt">info@krisma.lt</a></li>

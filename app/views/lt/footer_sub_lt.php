@@ -1,5 +1,5 @@
 <footer class="footer-sub">
-        <div class="flex-between">
+        <!-- <div class="flex-between"> -->
             <div class="copyright">
                 <p>&copy; <?php echo date('Y'); ?> Krisma. Visos teisės saugomos.</p>
             </div>
