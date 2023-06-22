@@ -28,55 +28,48 @@
             <div class="contact-page-info">
                 <div class="contact1">
                     <img src="../../app/img/user.png" alt="" width="200px;">
-                    <h2>Vardas Pavardas</h2>
-                    <p>Vyr. darbininkas</p>
-                    <p><a href="tel:+37012345678">+37012345678</a></p>
-                    <p><a href="mailto:random@random.lt">random@random.lt</a></p>
+                    <h2>Saulius Šoliūnas</h2>
+                    <p>Direktorius transportui</p>
+                    <p><a href="tel:+37069821301">+37069821301</a></p>
+                    <p><a href="mailto:info@krisma.lt">info@krisma.lt</a></p>
                 </div>
                 <div class="contact1">
                     <img src="../../app/img/user.png" alt="" width="200px;">
-                    <h2>Vardas Pavardas</h2>
-                    <p>Vyr. darbininko pavaduotojas</p>
-                    <p><a href="tel:+37012345678">+37012345678</a></p>
-                    <p><a href="mailto:random@random.lt">random@random.lt</a></p>
+                    <h2>Mantas Šoliūnas</h2>
+                    <p>Transporto skyriaus Vakarų Europoje vadovas</p>
+                    <p><a href="tel:+37062210504">+37062210504</a></p>
+                    <p><a href="mailto:europe@krisma.lt">europe@krisma.lt</a></p>
                 </div>
                 <div class="contact1">
                     <img src="../../app/img/user.png" alt="" width="200px;">
-                    <h2>Vardas Pavardas</h2>
-                    <p>Darbo padalinio vadovas</p>
-                    <p><a href="tel:+37012345678">+37012345678</a></p>
-                    <p><a href="mailto:random@random.lt">random@random.lt</a></p>
+                    <h2>Arūnas Vasilius</h2>
+                    <p>Techninės dalies vadovas</p>
+                    <p><a href="tel:+37061615860">+37061615860</a></p>
+                    <p><a href="mailto:arunas.pasnekesys@gmail.com">arunas.pasnekesys@gmail.com</a></p>
                 </div>
                 <div class="contact1">
                     <img src="../../app/img/user.png" alt="" width="200px;">
-                    <h2>Vardas Pavardas</h2>
-                    <p>Vadybininkas</p>
-                    <p><a href="tel:+37012345678">+37012345678</a></p>
-                    <p><a href="mailto:random@random.lt">random@random.lt</a></p>
+                    <h2>Audronė Grigonienė</h2>
+                    <p>Buhalterė</p>
+                    <p><a href="tel:+37061294950">+37061294950</a></p>
+                    <p><a href="mailto:audrone.pasnekesys@gmail.com">audrone.pasnekesys@gmail.com</a></p>
                 </div>
                 <div class="contact1">
                     <img src="../../app/img/user.png" alt="" width="200px;">
-                    <h2>Vardas Pavardas</h2>
-                    <p>Buhalteris</p>
-                    <p><a href="tel:+37012345678">+37012345678</a></p>
-                    <p><a href="mailto:random@random.lt">random@random.lt</a></p>
-                </div>
-                <div class="contact1">
-                    <img src="../../app/img/user.png" alt="" width="200px;">
-                    <h2>Vardas Pavardas</h2>
-                    <p>Praktikantas</p>
-                    <p><a href="tel:+37012345678">+37012345678</a></p>
-                    <p><a href="mailto:random@random.lt">random@random.lt</a></p>
+                    <h2>Sonata Marcinkevičiūtė</h2>
+                    <p>Eksporto vadybininkė</p>
+                    <p><a href="tel:+37062044504">+37062044504</a></p>
+                    <p><a href="mailto:generaltankgmbh@gmail.com">generaltankgmbh@gmail.com</a></p>
                 </div>
             </div>
             <div class="splitline"></div>
             <div class="contact-bottom">
                 <div class="company-info">
                     <h3>UAB Krisma</h3>
-                    <p><a href="https://goo.gl/maps/p6VpQKusNMp5dN138" target="_blank">Centrine g. 2A, Ramuciai, Kauno raj. LT-54464</a></p>
+                    <p><a href="https://goo.gl/maps/p6VpQKusNMp5dN138" target="_blank">Centrinė g. 2A, Ramučiai, Kauno raj. LT-54464</a></p>
                     <p>Įmonės kodas: 134441497</p>
                     <p>PVM kodas: LT344414917</p>
-                    <p><a href="tel:+37012345678">+37012345678</a></p>
+                    <p><a href="tel:+37069821301">+37069821301</a></p>
                     <p><a href="mailto:random@random.lt">info@krisma.lt</a></p>
                 </div>
                 <div class="company-map">

@@ -12,7 +12,8 @@
                 $subject = "Nauja žinutė";
                 $autorius = 'Nuo: ' . $name . ', ' . $email;
                 $zinute = htmlspecialchars($message);
-                mail($to, $subject, $autorius, $zinute, $from);         
+                mail($to, $subject, $autorius, $zinute, $from);
+                echo "<script>alert('Dėkojame už žinutę, susisieksime su Jumis kuo greičiau!<br>Thank you for your message, we will get back to you as soon as possible!');</script>"        
             }
         }
     } 

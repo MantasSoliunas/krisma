@@ -81,7 +81,7 @@
                 <p>Palikite savo užklausą ir mūsų komanda su Jumis susisieks per kelias darbo dienas!</p>
             </div>
             <div class="section-content">
-                <form class="contact-form" id="myForm" action="../../app/src/db.php" method="POST">
+                <form class="contact-form" id="myForm" action="pradinis.php" method="POST">
                     <div class="input-row">
                         <input type="text" name="name" placeholder="Vardas"  required>
                         <input type="email" name="email" placeholder="El. paštas" required>
@@ -90,10 +90,10 @@
                     <button type="submit" name="submit" class="submit-btn-slide" id="contact-submit">siųsti</button>
                 </form>
             </div>
-            <div id="submittedText" style="display: none;">
+            <!-- <div id="submittedText" style="display: none;">
                 <h2>Dėkojame už Jūsų žinutę!</h2>
                 <h3>Mūsų komanda su Jumis susisieks kaip galima greičiau!</h3>
-            </div>
+            </div> -->
         </div>
     </section>
 <!-- FOOTER MAIN -->

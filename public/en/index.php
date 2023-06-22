@@ -81,7 +81,7 @@
                 <p>Leave a message or inquiry for our team and we are sure to get back to you in a few business days</p>
             </div>
             <div class="section-content">
-                <form class="contact-form" id="myForm" onsubmit="submitForm(event)" action="../../public/en/index.php" method="POST">
+                <form class="contact-form" id="myForm" action="index.php" method="POST">
                     <div class="input-row">
                         <input type="text" name="name" placeholder="Your Name"  required>
                         <input type="email" name="email" placeholder="Your Email"  required>
@@ -90,10 +90,10 @@
                     <input type="submit" name="submit" class="submit-btn-slide">
                 </form>
             </div>
-            <div id="submittedText" style="display: none;">
+            <!-- <div id="submittedText" style="display: none;">
                 <h2>Thank you for submitting the form!</h2>
                 <h3>Our team will get back to you as soon as possible</h3>
-            </div>
+            </div> -->
         </div>
     </section>
 

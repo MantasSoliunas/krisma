@@ -8,7 +8,7 @@
             </div>
             <div class="contact-info">
                 <h2>Let us know!</h2>
-                <p>You can contact us every business day from 8am to 5pm and we will make sure to find a solution to all your needs</p>
+                <p>You can contact us every business day from 8:00 to 17:00 and we will make sure to find a solution to all your needs</p>
                 <i class="bi bi-geo-alt"></i><a href="https://goo.gl/maps/FUevTxM8EGbVHxTx9" target="_blank">Centrinė g. 2A, Ramučiai, Kauno r. LT54464</a>
                 <br>
                 <i class="bi bi-phone"></i><a href="tel:+37069821301">+370 698 21301</a>
