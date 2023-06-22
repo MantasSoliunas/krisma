@@ -73,6 +73,7 @@
 
 <!-- FOOTER MAIN -->
     <?php include '../../app/views/lt/footer_main_lt.php'; ?>
+    
 <!-- FOOTER SUB -->
     <?php include '../../app/views/lt/footer_sub_lt.php'; ?>
 

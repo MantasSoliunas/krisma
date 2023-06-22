@@ -32,6 +32,7 @@ body {
 .socials, .info {
     display:flex;
     list-style:none;
+    justify-content:center;
 }
 
 .socials a, .info a {
@@ -223,8 +224,9 @@ footer {
     background-color:#273545;
     color:#707e8c;
     font-size:0.875rem;
+    display:flex;
+    justify-content:center;
 }
-
 /* MOBILE SCREEN - CONTACT */
 
 @media screen and (max-width:390px) {
