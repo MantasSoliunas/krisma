@@ -35,12 +35,12 @@
         <div class="container">
             <div class="about-row1">
                 <h3 class="h3desktop">Mes didžiuojamės būdami šeimos verslu su daugiau nei 20 metų patirtimi, teikiančiu išskirtines pristatymo sprendimus. Mūsų pasižymėjimas aukštos kokybės paslaugomis išskiria mus šioje srityje. Mes skiriame pirmenybę aiškiai komunikacijai, detaliems sprendimams ir Jūsų reikalavimams pritaikytiems individualiems sprendimams.</h3>
-                <img src="../../app/img/drone1.png" alt="drone photo" width="550px">
+                <img src="../../app/img/drone1.png" alt="drone photo" width="550">
                 <h3 class="h3mobile">Mes didžiuojamės būdami šeimos verslu su daugiau nei 20 metų patirtimi, teikiančiu išskirtines pristatymo sprendimus. Mūsų pasižymėjimas aukštos kokybės paslaugomis išskiria mus šioje srityje. </h3>
             </div>
             <div class="splitline"></div>
             <div class="about-row2">
-                <img src="../../app/img/drone2.png" alt="drone photo" width="550px">
+                <img src="../../app/img/drone2.png" alt="drone photo" width="550">
                 <h3 class="h3mobile">Su mūsų giliomis žiniomis ir įgūdžiais, užtikriname, kad Jūsų kroviniai būtų tvarkingai aptarnauti ir laiku pristatyti į jų paskirties vietą.</h3>
                 <h3 class="h3desktop">Su mūsų giliomis žiniomis ir įgūdžiais, užtikriname, kad Jūsų kroviniai būtų tvarkingai aptarnauti ir laiku pristatyti į jų paskirties vietą. Prisijunkite prie begalės patenkintų klientų, kurie jau išgyveno skirtumą dirbdami su mūsų patikima ir į kliento poreikius orientuota įmone. </h3>
             </div>

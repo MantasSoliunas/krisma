@@ -2,7 +2,7 @@
         <div class="flex-between">
             <div class="who">
                 <h2>Who we are</h2>
-                <a href="../../public/en/index.php"><img src="../../app/img/logo_white.png" alt="Krisma logo" width="161px"></a>
+                <a href="../../public/en/index.php"><img src="../../app/img/logo_white.png" alt="Krisma logo" width="161"></a>
                 <p>With a strong emphasis on customer satisfaction and attention to detail, we have built a reputation as a trusted and dependable partner for businesses and individuals alike.</p>
                 <a href="../../public/en/about.php"><strong>More about us<i class="bi bi-arrow-right"></i></strong></a>
             </div>

@@ -36,38 +36,38 @@
         <div class="container">
             <div class="contact-page-info">
                 <div class="contact1">
-                    <img src="../../app/img/user.png" alt="" width="200px;">
+                    <img src="../../app/img/user.png" alt="" width="200">
                     <h2>Saulius Šoliūnas</h2>
                     <p>Direktorius transportui</p>
-                    <p><a href="tel:+37069821301">+37069821301</a></p>
+                    <p><a href="tel:+37069821301">+370 698 21301</a></p>
                     <p><a href="mailto:info@krisma.lt">info@krisma.lt</a></p>
                 </div>
                 <div class="contact1">
-                    <img src="../../app/img/user.png" alt="" width="200px;">
+                    <img src="../../app/img/user.png" alt="" width="200">
                     <h2>Mantas Šoliūnas</h2>
                     <p>Transporto skyriaus Vakarų Europoje vadovas</p>
-                    <p><a href="tel:+37062210504">+37062210504</a></p>
+                    <p><a href="tel:+37062210504">+370 622 10504</a></p>
                     <p><a href="mailto:europe@krisma.lt">europe@krisma.lt</a></p>
                 </div>
                 <div class="contact1">
-                    <img src="../../app/img/user.png" alt="" width="200px;">
+                    <img src="../../app/img/user.png" alt="" width="200">
                     <h2>Arūnas Vasilius</h2>
                     <p>Techninės dalies vadovas</p>
-                    <p><a href="tel:+37061615860">+37061615860</a></p>
+                    <p><a href="tel:+37061615860">+370 616 15860</a></p>
                     <p><a href="mailto:arunas.pasnekesys@gmail.com">arunas.pasnekesys@gmail.com</a></p>
                 </div>
                 <div class="contact1">
-                    <img src="../../app/img/user.png" alt="" width="200px;">
+                    <img src="../../app/img/user.png" alt="" width="200">
                     <h2>Audronė Grigonienė</h2>
                     <p>Buhalterė</p>
-                    <p><a href="tel:+37061294950">+37061294950</a></p>
+                    <p><a href="tel:+37061294950">+370 612 94950</a></p>
                     <p><a href="mailto:audrone.pasnekesys@gmail.com">audrone.pasnekesys@gmail.com</a></p>
                 </div>
                 <div class="contact1">
-                    <img src="../../app/img/user.png" alt="" width="200px;">
+                    <img src="../../app/img/user.png" alt="" width="200">
                     <h2>Sonata Marcinkevičiūtė</h2>
                     <p>Eksporto vadybininkė</p>
-                    <p><a href="tel:+37062044504">+37062044504</a></p>
+                    <p><a href="tel:+37062044504">+370 620 44504</a></p>
                     <p><a href="mailto:generaltankgmbh@gmail.com">generaltankgmbh@gmail.com</a></p>
                 </div>
             </div>
@@ -78,7 +78,7 @@
                     <p><a href="https://goo.gl/maps/p6VpQKusNMp5dN138" target="_blank">Centrinė g. 2A, Ramučiai, Kauno raj. LT-54464</a></p>
                     <p>Įmonės kodas: 134441497</p>
                     <p>PVM kodas: LT344414917</p>
-                    <p><a href="tel:+37069821301">+37069821301</a></p>
+                    <p><a href="tel:+37069821301">+370 698 21301</a></p>
                     <p><a href="mailto:random@random.lt">info@krisma.lt</a></p>
                 </div>
                 <div class="company-map">
